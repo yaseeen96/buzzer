@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Initialize the mixer module for playing sound
 pygame.mixer.init()
-buzzer_sound = pygame.mixer.Sound("buzzer.wav")
+buzzer_sound = pygame.mixer.Sound("haaa2.wav")
 
 def display_popup(message):
     if platform.system() == "Darwin":  # macOS
